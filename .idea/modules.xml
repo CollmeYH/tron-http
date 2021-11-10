@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tron-core/tron-core.iml" filepath="$PROJECT_DIR$/tron-core/tron-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tron-protobuf/tron-protobuf.iml" filepath="$PROJECT_DIR$/tron-protobuf/tron-protobuf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tron-sdk.iml" filepath="$PROJECT_DIR$/tron-sdk.iml" />
+    </modules>
+  </component>
+</project>

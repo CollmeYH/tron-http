@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e614bda-ec3a-415f-b5da-eb14f3fbcbd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/libs/wallet-0.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tron-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tron-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tron-core/src/test/java/org/tron/test/Trc20Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/tron-core/src/test/java/org/tron/test/Trc20Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tron-core/src/test/java/org/tron/test/TrxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tron-core/src/test/java/org/tron/test/TrxTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20i8U5rvaFa9aZsDh9c7WzUdDbx" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaDevelop\tron\tron-sdk\libs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Trc20Test.balanceOfTrc20">
+    <configuration name="Trc20Test.balanceOfTrc20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tron-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tron.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tron.test" />
+      <option name="MAIN_CLASS_NAME" value="org.tron.test.Trc20Test" />
+      <option name="METHOD_NAME" value="balanceOfTrc20" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trc20Test.sendTrc20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tron-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tron.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tron.test" />
+      <option name="MAIN_CLASS_NAME" value="org.tron.test.Trc20Test" />
+      <option name="METHOD_NAME" value="sendTrc20" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrxTest.balanceOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tron-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tron.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tron.test" />
+      <option name="MAIN_CLASS_NAME" value="org.tron.test.TrxTest" />
+      <option name="METHOD_NAME" value="balanceOf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Trc20Test.balanceOfTrc20" />
+        <item itemvalue="JUnit.Trc20Test.sendTrc20" />
+        <item itemvalue="JUnit.TrxTest.balanceOf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e614bda-ec3a-415f-b5da-eb14f3fbcbd0" name="Default Changelist" comment="" />
+      <created>1636516061043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636516061043</updated>
+      <workItem from="1636516063211" duration="707000" />
+      <workItem from="1636516802943" duration="3427000" />
+      <workItem from="1636527644306" duration="1133000" />
+      <workItem from="1636528942092" duration="1658000" />
+      <workItem from="1636531409732" duration="226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
