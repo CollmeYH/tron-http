@@ -5,7 +5,9 @@ import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 import org.spongycastle.util.encoders.Hex;
+import org.tron.common.utils.ByteArray;
 import org.tron.protos.Protocol;
+import org.tron.utils.Base58;
 import org.tron.utils.HttpClientUtils;
 import org.tron.utils.TronUtils;
 import org.web3j.abi.FunctionEncoder;
@@ -106,5 +108,36 @@ public class Trc20Test {
         if (txid != null) {
             System.out.println("交易Id:" + txid);
         }
+    }
+
+
+    /**
+     * 查询交易id
+     * @throws Throwable
+     */
+    @Test
+    public void getTransactionById() throws Throwable {
+        String txid = "29168e4ade18ed0973a23c09e61584207db8afa53442eed5f065aa74dbb19a7e";
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("value",txid);
+
+        String trans1 = HttpClientUtils.postJson(tronUrl + "/wallet/gettransactionbyid", jsonObject.toString());
+        JSONObject result = JSONObject.parseObject(trans1);
+        System.out.println(result);
+        if ("SUCCESS".equals(result.getJSONArray("ret").getJSONObject(0).getString("contractRet"))){
+            JSONObject valueJson = result.getJSONObject("raw_data").getJSONArray("contract").getJSONObject(0).getJSONObject("parameter").getJSONObject("value");
+            String address = valueJson.getString("owner_address");
+            String value = valueJson.getString("data");
+
+            //解码
+            byte[] bytes = ByteArray.fromHexString(address);
+            String encode = TronUtils.encode58Check(bytes);
+            System.out.println("地址==》"+encode);
+
+            //截取
+            BigDecimal amountDecimal = new BigDecimal(new BigInteger(value.substring(72), 16));
+            System.out.println("金额==》"+amountDecimal);
+        }
+
     }
 }

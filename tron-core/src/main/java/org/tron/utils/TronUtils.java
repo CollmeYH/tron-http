@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.spongycastle.crypto.digests.SM3Digest;
 import org.spongycastle.util.encoders.Hex;
 import org.tron.common.crypto.ECKey;
+import org.tron.common.crypto.Sha256Sm3Hash;
 import org.tron.common.utils.ByteArray;
 import org.tron.protos.Protocol;
 import org.tron.protos.contract.*;
@@ -149,7 +150,7 @@ public class TronUtils {
 		return null;
 	}
 
-	private static byte[] decode58Check(String input) throws Exception {
+	public static byte[] decode58Check(String input) throws Exception {
 		byte[] decodeCheck = Base58.decode(input);
 		if (decodeCheck.length <= 4) {
 			return null;
